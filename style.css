@@ -1,0 +1,141 @@
+.whole-body{
+    width: 400px;
+    height: 525px;
+    background-color: rgb(59, 70, 100);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+    display:flex;
+    color:white;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.answer-box
+{
+    display: grid;
+    background-color: rgb(24, 31, 50);
+    width: 370px;
+    height: 65px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.tool-box
+{
+    background-color: rgb(37, 45, 68);
+    width: 370px;
+    height:375px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.tools-row
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    margin: 10px 0;
+    margin-left:10px;
+}
+
+.tools
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 227, 219);
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    color: rgb(63, 69, 81);
+    font-weight: 600;
+    font-size: 20px;
+    margin-top:15px;
+    cursor: pointer;
+    box-shadow: 0 4px 0 0 rgb(200, 190, 170);
+    transition: box-shadow 0.1s, transform 0.1s;
+}
+
+.tools:active {
+    box-shadow: 0 2px 0 0 rgb(200, 190, 170);
+    transform: translateY(4px);
+}
+
+.del-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(100, 114, 153);
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top:15px;
+    cursor: pointer;
+    box-shadow: 0 4px 0 0 rgb(65, 78, 112);
+    transition: box-shadow 0.1s, transform 0.1s;
+}
+
+.del-box:active {
+    box-shadow: 0 2px 0 0 rgb(65, 78, 112);
+    transform: translateY(4px);
+}
+
+
+.adv-tools
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left:10px;
+}
+
+.reset
+{
+    display:flex;
+    width:170px;
+    height:50px;
+    background-color: rgb(100, 114, 153);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 600;
+    margin:0px;
+    cursor: pointer;
+    box-shadow: 0 4px 0 0 rgb(65, 78, 112);
+    transition: box-shadow 0.1s, transform 0.1s;
+}
+
+.reset:active {
+    box-shadow: 0 2px 0 0 rgb(65, 78, 112);
+    transform: translateY(4px);
+}
+
+.equal
+{
+    display:flex;
+    width:170px;
+    height:50px;
+    background-color: rgb(255, 52, 30);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 0 4px 0 0 rgb(169, 1, 1);
+    transition: box-shadow 0.1s, transform 0.1s;
+}
+
+.equal:active {
+    box-shadow: 0 2px 0 0 rgb(169, 1, 1);
+    transform: translateY(4px);
+}
