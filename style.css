@@ -21,6 +21,11 @@
     height: 65px;
     border-radius: 5px;
     margin: 0 auto;
+    color: white;
+    text-align: right;
+    align-items: center;
+    padding-right: 18px;
+    font-size: larger;
 }
 
 .tool-box
